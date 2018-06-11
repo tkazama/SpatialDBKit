@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
 
   s.platform = :ios, "9.0"
 
+  s.dependency "FMDB/common"
   s.requires_arc = true
 
   s.source_files = "SpatialDBKit/*.{h,m}"
